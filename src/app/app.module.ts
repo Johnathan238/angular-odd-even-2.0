@@ -6,12 +6,14 @@ import { BetterHighlightDirective } from './better-highlight/better-highlight.di
 
 
 import { AppComponent } from './app.component';
+import { unlessDirective } from './unless.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicHighlightDirective,
-    BetterHighlightDirective
+    BetterHighlightDirective,
+    unlessDirective
   ],
   imports: [
     BrowserModule,
